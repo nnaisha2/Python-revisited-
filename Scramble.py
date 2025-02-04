@@ -17,7 +17,7 @@ while True:
         print("Error fetching word. Please try again later.")
         sys.exit()
 
-    print(realWord)  # Debugging, remove this for GitHub
+    #print(realWord)  # Debugging
 
     # Scramble word ensuring it's different
     word = list(realWord)
