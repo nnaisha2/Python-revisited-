@@ -9,7 +9,6 @@ I am currently revising my Python skills, focusing on foundational concepts such
 - Loops (`while` loops, loop control)
 - Conditional statements (`if`, `else`, `elif`)
 - User input handling
-- Randomization (`random.sample()` for shuffling)
 - Basic error handling (`sys.exit()` for graceful exits)
 
 This project serves as a hands-on exercise to reinforce these concepts while creating something fun and interactive.
