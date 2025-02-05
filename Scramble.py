@@ -40,7 +40,7 @@ while True:
     if guess != realWord:
         print('You lost! 😞 The correct word was:', realWord)
 
-    # Ask if they want to play again
+    # Ask to play again
     while True:
         userinput = input('Do you want to play again? (y/n): ').lower()
         if userinput == 'n':
