@@ -1,9 +1,13 @@
 # The Collatz Sequence
-
-number = int(input("Hi please give me a number: "))
-print(number)
+while True: # input validation
+    try:
+        number = int(input("Hi, please give me a number: "))
+        print(number)
+        break  
+    except ValueError:
+        print("Integers only! Please try again.")
+    
 def collatz(number):
-    try :
         while True:
             if number == 1:
                 break
@@ -16,8 +20,6 @@ def collatz(number):
                 newNumber = 3 * number +1
                 print(newNumber)
                 number= newNumber
-    except Exception as e:
-        print(f"an exception {e} has occured")
                 
 collatz(number)
     
