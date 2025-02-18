@@ -15,7 +15,7 @@ A simple word scramble game where the player tries to guess the original word fr
 #### How to Play:
 Run the script, and it will display a scrambled word. Type your guess and press Enter. If correct, you win! Otherwise, you have another chance before losing.
 
-[Code: Word Scramble](./word_scramble.py)
+[Code: Word Scramble](./scramble.py)
 
 ---
 
